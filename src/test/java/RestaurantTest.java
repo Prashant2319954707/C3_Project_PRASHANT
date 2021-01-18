@@ -23,7 +23,6 @@ class RestaurantTest {
 
     @Test
     public void is_restaurant_open_should_return_false_if_time_is_outside_opening_and_closing_time() {
-        //WRITE UNIT TEST CASE HERE
         restaurant = service.getRestaurants().get(0);
         assertEquals(false, restaurant.isRestaurantOpen());
 
